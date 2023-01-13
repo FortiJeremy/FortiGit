@@ -1,16 +1,15 @@
 ---
-title: "Task 1 - Push content to your repo"
+title: "Task 1 - Insert Hugo content into your Parent Repo "
 chapter: true
 weight: 2
 ---
 
-### Task 1 - Push your content to GitHubo repo
+### Task 1 - Insert Hugo content into your Parent repo
 
-1. In a terminal window, Browse to the root within this repo
-  * ```sh
-       git push  
-    ```  
-    {{<notice note>}}  You may need to first issue a **git fetch** or other actions to get your content properly uploaded to GitHub. {{< /notice >}}
+1. We want to house the Hugo content close to the rest of your demo content (terraform/cloudformation/scripts/etc).  So all you have to do is copy your hugo content into your parent repo root directory
+   * copy your entire Hugo folder **DemoFrontEnd** to the root of the repo you're using for your Demo.
+   * Folder structure should look similar to the following:
+   ![repoFolders](repoFolders.png)
 
 
   
