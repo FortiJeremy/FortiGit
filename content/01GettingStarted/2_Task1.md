@@ -18,7 +18,7 @@ git clone https://github.com/FortinetSecDevOps/FortiGateHugo1.git --recurse-subm
 
 :bulb: is this a star with a lightbulb?
 
-{{< notice note >}} this should be an info notice box.  Need to figure out the proper formatting for css theme to get this to work {{< /notice >}}
+{{< notice note >}} Make sure you use the *--recurse-submodules* tag so that you get all the underlying resources that allow the framework to operate properly {{< /notice >}}
 
 {{< notice tip >}} this is a tip box {{< /notice >}}
 
