@@ -1,7 +1,7 @@
 ---
 title: "Task 2 - Install Hugo"
 chapter: true
-weight: 3
+weight: 2
 ---
 
 ### Task 2 - Install Hugo 

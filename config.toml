@@ -41,34 +41,37 @@ enableEmoji = true
   themeVariant = "red"
   #themeVariant = "mine"
 
+  landingPageURL = "/DemoFrontEnd"
+  landingPageName = "<i class='fas fa-home'></i> Home"
+
+
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-graduation-cap'></i> AWS Sample Workshop/How-to/Examples "
+name = "<i class='fas fa-graduation-cap'></i> AWS Sample Workshop"
 url = "https://aws-samples.github.io/aws-modernization-workshop-sample/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i> Fortinet Standard Workshop Web format - MVP1 "
-url = "https://github.com/FortinetSecDevOps/technical-recipe-azure-sdwan"
+name = "<i class='fas fa-tools'></i> Fortinet Standard Workshop Web format - MVP1"
+url = "https://fortinetsecdevops.github.io/technical-recipe-azure-sdwan/"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tools'></i>Fortinet Standard Workshop Git Repo - MVP1 "
+name = "<i class='fas fa-tools'></i>Fortinet Standard Workshop Git Repo - MVP1"
 url = "https://github.com/FortinetSecDevOps/technical-recipe-azure-sdwan"
 weight = 21
 
-
 [[menu.shortcuts]]
 name = "<i class='fas fa-tools'></i> Hugo learn theme repo"
-url = "https://github.com/martignoni/hugo-notice"
+url = "https://fortinetsecdevops.github.io/technical-recipe-azure-sdwan/"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-tools'></i> Hugo Learn theme - Guide"
-url = "https://github.com/martignoni/hugo-notice"
+url = "https://learn.netlify.app/en/basics/"
 weight = 35
 
 

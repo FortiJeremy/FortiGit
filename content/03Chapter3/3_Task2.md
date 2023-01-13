@@ -1,7 +1,7 @@
 ---
 title: "Task 2 - Push content to your repo"
 chapter: true
-weight: 3
+weight: 2
 ---
 
 ### Task 2 - Push your content to GitHubo repo

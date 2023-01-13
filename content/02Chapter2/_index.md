@@ -1,7 +1,7 @@
 ---
 title: "Ch 2 Hugo Content Structure"
 chapter: true
-weight: 2
+weight: 20
 ---
 
 ### ***Learn to organize and create content in Hugo- estimated duration 20min***

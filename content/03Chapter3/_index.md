@@ -1,7 +1,7 @@
 ---
 title: "Ch 3 - Hugo Publish via GitHub Actions (CI/CD)"
 chapter: true
-weight: 2
+weight: 30
 ---
 
 ### ***Publish your content to GitHub pages via a GitHub action***

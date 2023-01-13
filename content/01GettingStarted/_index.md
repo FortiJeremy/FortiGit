@@ -1,7 +1,7 @@
 ---
 title: "Ch 1 Getting Started with Hugo"
 chapter: true
-weight: 1
+weight: 10
 ---
 
 # Hugo - Getting started

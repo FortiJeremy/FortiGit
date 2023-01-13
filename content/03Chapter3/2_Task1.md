@@ -1,7 +1,7 @@
 ---
 title: "Task 1 - Insert Hugo content into your Parent Repo "
 chapter: true
-weight: 2
+weight: 1
 ---
 
 ### Task 1 - Insert Hugo content into your Parent repo
