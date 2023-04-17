@@ -6,7 +6,7 @@ weight: 1
 
 ### Task 1 - Clone this sample repo
 
-__** Prerequisite **__ - Ensure Git is installted on your system
+__** Prerequisite **__ - Ensure Git is installed on your system
 
 ## Step 1 Clone this [git repo](https://github.com/FortinetSecDevOps/DemoFrontEnd.git) 
 
