@@ -1,23 +1,19 @@
 ---
-title: "Fortinet Standard Workshop Web format - MVP1"
+title: "Fortinet Git 101"
 chapter: true
 weight: 1
 ---
 
-# Fortinet Standard Workshop Web format - MVP1
+# Fortinet Git 101
 
 ### Welcome!
 
-This site, hosted on GitHub Pages, will explain how to use the Hugo Web Framework "Learning Theme" to effectively deliver Fortinet Product demos in a constent, simple, and visually appealing format.
-
-The beauty of this framework lies in its simplicity.  Within approx 30 mins, anybody can have a site up and running.  Content is created via Markdown files, and the course layout is simply a folder structure.
-
-Follow along on this simple tutorial to get up and running with a Hugo formatted site for your training/demo content today!
+This site has been built to help acclimate you to using Git, GitHub, and the GitHub flow.
 
 ### Learning Objectives
-- Setup hugo on your system and clone this repo for re-usable starting point
-- Customize the Hugo content folder to display proper information flow for your content/demo/training
-- Publish your Hugo site to GitHub pages via a CI/CD model (GitHub action will automatically re-build your Hugo content whenever you push to the underlying repo)
+- Understand git, and the commands needed to contribute within this repo.
+- Understand GitHub, GitHub Actions, and the automation we've implemented.
+- Understand GitHub flow, and how to use git to contribute.
 
 # About Hugo and Fortinet TECRecipies
 

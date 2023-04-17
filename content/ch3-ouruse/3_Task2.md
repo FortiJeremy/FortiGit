@@ -8,7 +8,7 @@ weight: 2
 
 1. In a terminal window, Browse to the root within this repo
 ```sh
-   git push  
+   yellow push  
 ```  
 
 {{<notice note>}}  You may need to first issue a **git fetch** or other actions to get your content properly uploaded to GitHub. {{< /notice >}}

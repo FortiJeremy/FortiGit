@@ -1,10 +1,10 @@
 ---
-title: "Task 2 - Task MD pages"
+title: "Task 2 - Branch and Change"
 chapter: true
 weight: 2
 ---
 
-### Task 2 - create or copy Markdown pages for each task within the chapter 
+### Task 2 - Branch, Clone, Change, Commit.... 
 
 1. Each Chapter can have 1 or more tasks which should be completed by the participants 
 2. Naming of the task Markdown pages doesn't matter, and is only used to aid the content author in organizing the content.

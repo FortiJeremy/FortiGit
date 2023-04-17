@@ -4,7 +4,7 @@ chapter: true
 weight: 3
 ---
 
-### Task 2 - Adjust the config.toml file which controls overall paramaters for the site 
+### Task 3 - View your branch, submit pull request 
 
 1. Open the **config.toml** file under the repo root to change a few parameters of the site
    * Edit the **baseUrl** to match the GitHub Page for your site (*you won't have this until you've done at least 1 GitHub action/build*)
