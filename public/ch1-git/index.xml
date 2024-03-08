@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ch 1 - What is Git? on Hugo web framework for Fortinet Demos</title>
+    <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git.html</link>
+    <description>Recent content in Ch 1 - What is Git? on Hugo web framework for Fortinet Demos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/1_whatisit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/1_whatisit.html</guid>
+      <description>Chapter 1 - What is Git Git Summary Git is a distributed version control system designed to help developers manage and collaborate on software projects. It was created by Linus Torvalds in 2005 and has since become one of the most widely used version control systems in the world. Git is open source software and is free to use, making it accessible to developers of all levels.
+The core idea behind Git is to provide a way for developers to track changes made to a codebase over time, allowing multiple developers to work on the same project without interfering with each other.</description>
+    </item>
+    
+    <item>
+      <title>Branches</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/2_branches.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/2_branches.html</guid>
+      <description>Git Branches Git branches are a key feature of Git that allow developers to create independent lines of development for a project. A branch is essentially a separate version of the codebase that exists alongside the main codebase in the repository. This allows developers to work on different features or fixes without affecting the main codebase until they are ready to be merged.
+The basic process of branching in Git involves creating a new branch from an existing branch, which can be the main branch or another existing branch.</description>
+    </item>
+    
+    <item>
+      <title>Task 1 - Install Git</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/3_task1-install.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/3_task1-install.html</guid>
+      <description>Task 2 - Install Git To install Git, follow the directions provided by the official website: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+(excerpts taken from above webpage, as of 04-17-2023)
+Installing on macOS There are several ways to install Git on macOS. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time.</description>
+    </item>
+    
+    <item>
+      <title>Common Commands</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/4_glossary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch1-git/4_glossary.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

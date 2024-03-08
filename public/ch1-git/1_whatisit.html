@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://www.fortinet.com/etc/designs/fortinet/favicon.ico" type="image/x-icon" />
 
-    <title>Fortinet Git 101 :: Hugo web framework for Fortinet Demos</title>
+    <title>Git :: Hugo web framework for Fortinet Demos</title>
 
     
     <link href="/DemoFrontEnd/css/nucleus.css?1707502550" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/DemoFrontEnd/">
+  <body class="" data-url="/DemoFrontEnd/ch1-git/1_whatisit.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -79,7 +79,7 @@
   
     
     <li data-nav-id="/DemoFrontEnd/ch1-git.html" title="Ch 1 - What is Git?" class="dd-item
-        
+        parent
         
         
         ">
@@ -107,7 +107,7 @@
  
   
     
-      <li data-nav-id="/DemoFrontEnd/ch1-git/1_whatisit.html" title="Git" class="dd-item ">
+      <li data-nav-id="/DemoFrontEnd/ch1-git/1_whatisit.html" title="Git" class="dd-item active">
         <a href="/DemoFrontEnd/ch1-git/1_whatisit.html">
         Git
         <i class="fas fa-check read-icon"></i>
@@ -478,6 +478,45 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/DemoFrontEnd/'>Fortinet Git 101</a> > <a href='/DemoFrontEnd/ch1-git.html'>Ch 1 - What is Git?</a> > Git
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
@@ -489,24 +528,39 @@
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
- 
-<h1 id="fortinet-git-101">Fortinet Git 101</h1>
-<h3 id="welcome">Welcome!</h3>
-<p>This site has been built to help acclimate you to using Git, GitHub, and the GitHub flow.</p>
-<h3 id="learning-objectives">Learning Objectives</h3>
-<ul>
-<li>Understand git, and the commands needed to contribute within this repo.</li>
-<li>Understand GitHub, GitHub Actions, and the automation we&rsquo;ve implemented.</li>
-<li>Understand GitHub flow, and how to use git to contribute.</li>
-</ul>
-<h1 id="about-hugo-and-fortinet-tecrecipies">About Hugo and Fortinet TECRecipies</h1>
-<h1 id="-recreate-new-content-for-everything-below-here-">!!!!!!!!!!!!!! RECREATE NEW CONTENT FOR EVERYTHING BELOW HERE !!!!!!!!!!!!!</h1>
+<h2 id="chapter-1---what-is-git">Chapter 1 - What is Git</h2>
+<h3 id="git-summary">Git Summary</h3>
+<p>Git is a distributed version control system designed to help developers manage and collaborate on software projects. It was created by Linus Torvalds in 2005 and has since become one of the most widely used version control systems in the world. Git is open source software and is free to use, making it accessible to developers of all levels.</p>
+<p>The core idea behind Git is to provide a way for developers to track changes made to a codebase over time, allowing multiple developers to work on the same project without interfering with each other. Git accomplishes this by creating a local repository on each developer&rsquo;s computer, which stores a complete copy of the codebase and all changes made to it.</p>
+<p>One of the key features of Git is its ability to handle branching and merging. This allows developers to work on multiple independent lines of development simultaneously and merge changes back into the main codebase when they are ready. This makes it easy for developers to work on different features or bug fixes without interfering with each other&rsquo;s work.</p>
+<p>Git also provides a number of other useful features, such as the ability to revert changes made to a codebase, track the history of changes, and collaborate with other developers using remote repositories hosted on services like GitHub or Bitbucket.</p>
+<h3 id="the-three-states-of-git">The Three States of Git</h3>
+<p>Git has three main states that files can be in: the working directory, the staging area, and the repository.</p>
+<pre><code>The working directory: This is the directory on your local machine where you make changes to your files.
+
+The staging area: This is an intermediate area where you can review and stage changes before committing them to the repository. Files in the staging area are not yet committed, but they are marked as being ready for commit.
+
+The repository: This is where Git permanently stores the committed changes to your files. The repository includes the entire history of changes made to the files.
+</code></pre>
+<h3 id="moving-files-between-states">Moving Files Between States</h3>
+<p>Files can move between the three states in Git as follows:</p>
+<pre><code>Working directory to staging area: You can add changes made to files in the working directory to the staging area using the git add command.
+
+Staging area to repository: Once you have reviewed and staged your changes, you can commit them to the repository using the git commit command. This permanently saves the changes to the repository.
+
+Repository to working directory: You can update the files in your working directory with the most recent changes from the repository using the git pull command.
+</code></pre>
+<h3 id="how-git-keeps-track-of-changes">How Git Keeps Track of Changes</h3>
+<p>Git keeps track of changes to files using a system of snapshots. Each time you commit changes, Git takes a snapshot of the files in the repository at that point in time. When you view the history of commits, you can see the differences between each snapshot and how the files have changed over time.</p>
+<p>Git uses a unique identifier called a SHA-1 hash to track each commit and ensure the integrity of the repository. This means that any changes to the repository are immediately detectable, and you can always trace back to the original commit that introduced a particular change.</p>
+<p>Overall, understanding the three states of Git and how Git tracks changes to files is essential for effectively using Git for version control.</p>
+
+
+<footer class="footline">
 	
-  
+</footer>
+
         
             </div> 
         
@@ -556,6 +610,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -571,6 +626,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -771,8 +829,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/DemoFrontEnd/ch1-git.html" title="Ch 1 - What is Git?"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/DemoFrontEnd/ch1-git.html" title="Ch 1 - What is Git?" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/DemoFrontEnd/ch1-git/2_branches.html" title="Branches" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

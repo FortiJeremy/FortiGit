@@ -1,0 +1,9 @@
+---
+title: "Final Task - Fill out the survey"
+chapter: true
+weight: 1
+---
+
+{{< rawhtml >}}
+<script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd0OifjbIREjgy7zfWWFC_2BA2CxSFRylfF66vyA4nyJ4UJ.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
+{{< /rawhtml >}}

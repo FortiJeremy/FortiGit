@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://www.fortinet.com/etc/designs/fortinet/favicon.ico" type="image/x-icon" />
 
-    <title>Fortinet Git 101 :: Hugo web framework for Fortinet Demos</title>
+    <title>Task 3 - Adjust config.toml site settings :: Hugo web framework for Fortinet Demos</title>
 
     
     <link href="/DemoFrontEnd/css/nucleus.css?1707502550" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/DemoFrontEnd/">
+  <body class="" data-url="/DemoFrontEnd/ch2-githubflow/3_task3.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -199,7 +199,7 @@
   
     
     <li data-nav-id="/DemoFrontEnd/ch2-githubflow.html" title="Ch 2 - Software Workflows" class="dd-item
-        
+        parent
         
         
         ">
@@ -269,7 +269,7 @@
  
   
     
-      <li data-nav-id="/DemoFrontEnd/ch2-githubflow/3_task3.html" title="Task 3 - Adjust config.toml site settings" class="dd-item ">
+      <li data-nav-id="/DemoFrontEnd/ch2-githubflow/3_task3.html" title="Task 3 - Adjust config.toml site settings" class="dd-item active">
         <a href="/DemoFrontEnd/ch2-githubflow/3_task3.html">
         Task 3 - Adjust config.toml site settings
         <i class="fas fa-check read-icon"></i>
@@ -478,6 +478,45 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/DemoFrontEnd/'>Fortinet Git 101</a> > <a href='/DemoFrontEnd/ch2-githubflow.html'>Ch 2 - Software Workflows</a> > Task 3 - Adjust config.toml site settings
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
@@ -489,24 +528,28 @@
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
- 
-<h1 id="fortinet-git-101">Fortinet Git 101</h1>
-<h3 id="welcome">Welcome!</h3>
-<p>This site has been built to help acclimate you to using Git, GitHub, and the GitHub flow.</p>
-<h3 id="learning-objectives">Learning Objectives</h3>
+<h3 id="task-3---view-your-branch-submit-pull-request">Task 3 - View your branch, submit pull request</h3>
+<ol>
+<li>Open the <strong>config.toml</strong> file under the repo root to change a few parameters of the site
 <ul>
-<li>Understand git, and the commands needed to contribute within this repo.</li>
-<li>Understand GitHub, GitHub Actions, and the automation we&rsquo;ve implemented.</li>
-<li>Understand GitHub flow, and how to use git to contribute.</li>
+<li>Edit the <strong>baseUrl</strong> to match the GitHub Page for your site (<em>you won&rsquo;t have this until you&rsquo;ve done at least 1 GitHub action/build</em>)</li>
+<li>Add information URL&rsquo;s to the bottom of the leftnav bar with <strong>[[menu.shortcuts]]</strong>
+<ul>
+<li>menu.shortcuts are displayed lowest to highest according to their weight</li>
 </ul>
-<h1 id="about-hugo-and-fortinet-tecrecipies">About Hugo and Fortinet TECRecipies</h1>
-<h1 id="-recreate-new-content-for-everything-below-here-">!!!!!!!!!!!!!! RECREATE NEW CONTENT FOR EVERYTHING BELOW HERE !!!!!!!!!!!!!</h1>
+</li>
+<li>Additional customizations can be made with <strong>themeVariants</strong>, but they won&rsquo;t be covered here
+<img src="config.png" alt="config"></li>
+</ul>
+</li>
+</ol>
+
+
+<footer class="footline">
 	
-  
+</footer>
+
         
             </div> 
         
@@ -668,6 +711,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -686,6 +730,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -771,8 +818,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/DemoFrontEnd/ch2-githubflow/2_task2.html" title="Task 2 - Branch and Change"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/DemoFrontEnd/ch1-git.html" title="Ch 1 - What is Git?" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/DemoFrontEnd/ch3-ouruse.html" title="Ch 3 - Hugo Publish via GitHub Actions (CI/CD)" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

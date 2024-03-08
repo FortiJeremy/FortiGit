@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ch 2 - Software Workflows on Hugo web framework for Fortinet Demos</title>
+    <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow.html</link>
+    <description>Recent content in Ch 2 - Software Workflows on Hugo web framework for Fortinet Demos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 2.1 - Github Flow</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/1_whatis.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/1_whatis.html</guid>
+      <description>GitHub flow&amp;hellip; is a way of managing software development workflows using Git and GitHub. It is a lightweight, branch-based workflow that emphasizes collaboration, continuous integration, and continuous delivery.
+From a networking perspective, think of each branch in the workflow as a separate network segment or VLAN. Each branch represents a different development environment where code changes can be tested and integrated before being merged into the main codebase.
+The workflow starts with a developer creating a new branch for a feature or bug fix.</description>
+    </item>
+    
+    <item>
+      <title>Task 2 - Branch and Change</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/2_task2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/2_task2.html</guid>
+      <description>Task 2 - Branch, Clone, Change, Commit&amp;hellip;. Each Chapter can have 1 or more tasks which should be completed by the participants Naming of the task Markdown pages doesn&amp;rsquo;t matter, and is only used to aid the content author in organizing the content. Info
+Note that the filename doesn&amp;rsquo;t matter other than to help organize content. The Title and Weight dictate the leftnav visual and ordering of the pages. Lower weight pages are displayed first</description>
+    </item>
+    
+    <item>
+      <title>Task 3 - Adjust config.toml site settings</title>
+      <link>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/3_task3.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fortinetsecdevops.github.io/DemoFrontEnd/ch2-githubflow/3_task3.html</guid>
+      <description>Task 3 - View your branch, submit pull request Open the config.toml file under the repo root to change a few parameters of the site Edit the baseUrl to match the GitHub Page for your site (you won&amp;rsquo;t have this until you&amp;rsquo;ve done at least 1 GitHub action/build) Add information URL&amp;rsquo;s to the bottom of the leftnav bar with [[menu.shortcuts]] menu.shortcuts are displayed lowest to highest according to their weight Additional customizations can be made with themeVariants, but they won&amp;rsquo;t be covered here </description>
+    </item>
+    
+  </channel>
+</rss>
